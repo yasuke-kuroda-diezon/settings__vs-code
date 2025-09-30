@@ -1,0 +1,44 @@
+{
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "vim.foldfix": true,
+  "chat.mcp.discovery.enabled": true,
+  "chat.mcp.serverSampling": {
+    "Global in Code: backlog": {
+      "allowedModels": ["github.copilot-chat/gpt-4.1"]
+    }
+  },
+  "cSpell.userWords": [
+    "bullmq",
+    "Diezon",
+    "eccube",
+    "fflate",
+    "nodenext",
+    "opensearch",
+    "paralleldrive",
+    "pdfme",
+    "sendgrid",
+    "Sensio",
+    "Skus",
+    "trivago",
+    "Yamato",
+    "yasukekuroda"
+  ],
+  "security.promptForLocalFileProtocolHandling": false,
+  "chat.editing.confirmEditRequestRemoval": false,
+  "workbench.settings.applyToAllProfiles": [
+    "turboConsoleLog.logFunction",
+    "turboConsoleLog.insertEnclosingClass"
+  ],
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "workbench.editor.enablePreview": false,
+  "git.suggestSmartCommit": false,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "prettier.requireConfig": true,
+  "prettier.prettierPath": "./node_modules/prettier",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
