@@ -2,5 +2,5 @@
   // 'eccube(PHP)' profile.
   "editor.wordSeparators": "`~!#%^&*()-=+[{]}\\|;:,.<>/?",
   // Twigのインデントが崩れるのでformatOnSaveを無効化...
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": false
 }
