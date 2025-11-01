@@ -1,0 +1,27 @@
+{
+	// apply to all profiles.
+	"💡print to console.log": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "s_log",
+		"body": [
+			"console.log(${1})",
+		],
+		"description": "Log output to console"
+	},
+	"💡print to console.dir": {
+		"scope": "javascript,typescript",
+		"prefix": "s_dir", // kuroda todo. 表示できてない。汗
+		"body": [
+			"console.dir(${1}, { depth: null })",
+		],
+		"description": "Log output to console"
+	},
+	"💡print to console.table": {
+		"scope": "javascript,typescript",
+		"prefix": "s_table", // kuroda todo. 表示できてない。汗
+		"body": [
+			"console.table(${1})",
+		],
+		"description": "Log output to console"
+	}
+}

@@ -1,0 +1,49 @@
+{
+  // apply to all profiles.
+  "servers": {
+    "figma-developer-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--figma-api-key=figd_-tDFlZHNiMpN4TFni8HOeSmBMaVhS6q_H9T1_cze",
+        "--stdio"
+      ]
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "ctx7sk-64a6cc79-f44b-4fc2-85a0-3375eef7b94d"
+      ],
+      "tools": [
+        "get-library-docs",
+        "resolve-library-id"
+      ]
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--headless=true",
+        "--isolated=true"
+      ]
+    },
+    "backlog": {
+      "command": "npx",
+      "args": [
+        "backlog-mcp-server"
+      ],
+      "env": {
+        "BACKLOG_DOMAIN": "diezon.backlog.com",
+        "BACKLOG_API_KEY": "0NEGGWAOYOEHNLhflec6VWm7RPtpGrgvwB8Jfgg05irh4QU88bU0vEvxUvMnlo0l",
+        "ENABLE_TOOLSETS": "all",
+        "DYNAMIC_TOOLSETS": 1
+      }
+    }
+  }
+}

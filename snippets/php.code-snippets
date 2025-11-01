@@ -1,0 +1,11 @@
+{
+	// apply to all profiles.
+	"💡print to log": {
+		"scope": "php",
+		"prefix": "dump",
+		"body": [
+			"dump(${1});die;",
+		],
+		"description": "Log output to console"
+	}
+}

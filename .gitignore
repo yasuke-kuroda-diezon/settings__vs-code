@@ -1,0 +1,9 @@
+History/
+globalStorage/
+workspaceStorage/
+sync/
+
+# vscodeのプロファイル設定.
+profiles/*
+!profiles/*/
+!profiles/*/*.json
