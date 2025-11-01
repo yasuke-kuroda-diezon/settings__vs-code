@@ -195,9 +195,9 @@
     "**/dist/**": true,
     "**/node_modules/**": true,
     "**/out/**": true,
-    "**/tmp/**": true,
+    "**/tmp/**": true
   },
-  "git.autorefresh": false,
+  "git.autorefresh": true,
   "git.blame.statusBarItem.enabled": false,
   "git.decorations.enabled": false,
   "git.enableStatusBarSync": false,
@@ -227,7 +227,7 @@
     "**/coverage": true,
     "**/dist": true,
     "**/node_modules": true,
-    "**/vendor": true,
+    "**/vendor": true
   },
   "search.showLineNumbers": true,
   "terminal.integrated.cursorBlinking": true,
@@ -310,9 +310,9 @@
     "workbench.view.alwaysShowHeaderActions",
     "zenMode.centerLayout",
     "zenMode.hideLineNumbers",
-    "zenMode.hideStatusBar",
+    "zenMode.hideStatusBar"
   ],
   "zenMode.centerLayout": false,
   "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false,
+  "zenMode.hideStatusBar": false
 }
