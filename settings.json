@@ -236,7 +236,32 @@
   "window.newWindowProfile": "playground",
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
-    "tab.activeBackground": "#666666cc",
+    // ▼エディターグループとタブ
+    "tab.activeBackground": "#b41f1fcc",
+    "tab.activeBorder": "#b41f1fcc", // 一周ではなく下線のみ.
+    "tab.activeBorderTop": "#b41f1fcc",
+    "tab.selectedBorderTop": "#b41f1fcc",
+    // ▼チャット
+    "chat.avatarBackground": "#b41f1fcc",
+    "chat.requestBorder": "#b41f1fcc",
+    "chat.checkpointSeparator": "#b41f1fcc",
+    // ▼インラインチャット
+    "inlineChat.foreground": "#b41f1fcc",
+    "interactive.activeCodeBorder": "#b41f1fcc",
+    // test.
+    // "interactive.activeCodeBorder": "#b41f1fcc",
+    "interactive.inactiveCodeBorder": "#b41f1fcc"
+    // === Chat Colors ===
+    // "chat.requestBackground": "#b41f1fcc",
+    // "chat.slashCommandBackground": "#b41f1fcc",
+    // "chat.slashCommandForeground": "#b41f1fcc",
+    // "chat.avatarForeground": "#b41f1fcc",
+    // "chat.editedFileForeground": "#b41f1fcc",
+    // "chat.linesAddedForeground": "#b41f1fcc",
+    // "chat.linesRemovedForeground": "#b41f1fcc",
+    // "chat.requestCodeBorder": "#b41f1fcc",
+    // "chat.requestBubbleBackground": "#b41f1fcc",
+    // "chat.requestBubbleHoverBackground": "#b41f1fcc",
   },
   "workbench.colorTheme": "Default Dark+",
   "workbench.editor.enablePreview": false,
