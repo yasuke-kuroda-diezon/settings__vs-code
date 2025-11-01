@@ -236,7 +236,7 @@
   "window.newWindowProfile": "playground",
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
-    "tab.activeBackground": "#666666cc"
+    "tab.activeBackground": "#666666cc",
   },
   "workbench.colorTheme": "Default Dark+",
   "workbench.editor.enablePreview": false,
