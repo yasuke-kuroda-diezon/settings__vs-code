@@ -1,0 +1,19 @@
+{
+  // 'backend：TypeScript' profile.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordSeparators": "`~!#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "prettier.prettierPath": "./node_modules/prettier",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/.dist/**/*": "🎁${filename}.${extname}",
+    "**/node_modules/**/*": "📚${filename}.${extname}"
+  }
+}
