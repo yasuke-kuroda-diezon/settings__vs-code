@@ -1,0 +1,15 @@
+History/
+globalStorage/
+mcp/
+sync/
+workspaceStorage/
+
+# vscodeのプロファイル設定.
+profiles/*
+profiles/**/prompts/
+!profiles/*/
+!profiles/*/*.json
+
+# envファイル.
+.env*
+!.env.example

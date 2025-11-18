@@ -1,0 +1,25 @@
+{
+  // 'frontend：TypeScript' profile.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "material-icon-theme.activeIconPack": "react",
+  "prettier.prettierPath": "./node_modules/prettier",
+  "turboConsoleLog.addSemicolonInTheEnd": false,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.logFunction": "console.log",
+  "turboConsoleLog.quote": "'",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/.next/**/*": "⚡${filename}.${extname}",
+    "**/node_modules/**/*": "📚${filename}.${extname}",
+    "**/src/app/**/*": "🏠${filename}.${extname}",
+    "**/src/common/**/*": "⚙️${filename}.${extname}",
+    "**/src/components/container/**/*": "📦${filename}.${extname}",
+    "**/src/components/view/**/*": "👁️${filename}.${extname}",
+    "**/src/stories/**/*": "📖${filename}.${extname}"
+  }
+}
