@@ -17,7 +17,9 @@
     "**/.next/**/*": "⚡${filename}.${extname}",
     "**/node_modules/**/*": "📚${filename}.${extname}",
     "**/src/app/**/*": "🏠${filename}.${extname}",
-    "**/src/common/**/*": "⚙️${filename}.${extname}",
+    "**/src/common/api/**/*": "️📓${filename}.${extname}",
+    "**/src/common/gql/**/*": "️⚙️${filename}.${extname}",
+    "**/src/common/**/*": "🤝${filename}.${extname}",
     "**/src/components/container/**/*": "📦${filename}.${extname}",
     "**/src/components/view/**/*": "👁️${filename}.${extname}",
     "**/src/stories/**/*": "📖${filename}.${extname}"
