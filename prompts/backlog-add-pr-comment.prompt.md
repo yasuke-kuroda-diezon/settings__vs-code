@@ -47,15 +47,15 @@ model: GPT-4o (copilot)
 # issueに関連したbacklog上のプルリクエストを取得する。
 - {projectKey}: `git remote get-url origin | grep -oE '[A-Z_]+'` の結果。
 - {repoName}: `git remote get-url origin | grep -oE '[^/]+\.git$' | sed 's/\.git$//'` の結果。
-- {openStatusId}: 1。open状態のステータスID。
-- {one}: 1。取得数。
+- {OPEN_STATUS_ID}: 1。open状態のステータスID。
+- {ONE}: 1。取得数。
 ```mcp:backlog:get_pull_requests
 {
   "projectKey",
   "repoName",
   "issueId": [${issueId}],
-  "statusId": [${openStatusId}],
-  "count": ${one},
+  "statusId": [${OPEN_STATUS_ID}],
+  "count": ${ONE},
   "fields": "{\n  number\n}"
 }
 ```
@@ -70,6 +70,7 @@ model: GPT-4o (copilot)
   "notifiedUserId": [{assigneeId}]
 }
 ```
+add_pull_request_commentツールを実行する。
 
 # プルリクエストのURLを表示する。
 - {pullRequestUrl}: `https://diezon.backlog.com/git/${projectKey}/${repoName}/pullRequests/${number}`形式。

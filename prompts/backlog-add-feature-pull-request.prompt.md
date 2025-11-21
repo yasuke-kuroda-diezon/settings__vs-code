@@ -1,6 +1,6 @@
 ---
 mode: agent
-description: backlogにプルリクエストを作成する。
+description: 実装タスク用のプルリクエストを Backlog に作成する。
 tools: ['runCommands', 'runTasks', 'backlog/*', 'changes']
 model: GPT-4o (copilot)
 ---
@@ -9,7 +9,7 @@ model: GPT-4o (copilot)
 # 宛先ブランチ{baseBranch}を決定する。
 1. デフォルト値: `git branch | grep -oE 'release/.*' | head -n 1`の結果。
 2. ユーザー入力があれば上書きする。
-3. 確認:「宛先ブランチは${baseBranch}です。yで確定、変更する場合はブランチ名を入力」
+3. 確認:「推測した宛先ブランチは${baseBranch}です。yで確定、変更する場合はブランチ名を入力」
    - y → {baseBranch}を確定して次へ。
    - その他 → 入力値で{baseBranch}を上書きして次へ。
 
@@ -57,6 +57,7 @@ git push -u origin {currentBranch}
   "fields": "{\n  number\n}"
 }
 ```
+add_pull_requestツールを実行する。
 
 # プルリクエストのURLを表示する。
 - {pullRequestUrl}: `https://diezon.backlog.com/git/${projectKey}/${repoName}/pullRequests/${number}`形式。
