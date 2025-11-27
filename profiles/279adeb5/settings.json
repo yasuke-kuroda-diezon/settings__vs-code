@@ -18,7 +18,7 @@
   "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": false,
   "typescript.preferences.preferTypeOnlyAutoImports": false,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
