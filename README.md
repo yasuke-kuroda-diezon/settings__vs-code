@@ -15,26 +15,30 @@ code-insiders ~/Library/Application\ Support/Code\ -\ Insiders/User/
 - 拡張機能: Docker関連
 - ディレクトリ例: `hazaiya-docker/`, `olta-docker/`
 
-### eccube：PHP
+### Regolith
 - Symfony(PHP)開発用
 - 拡張機能: Symfony / PHP / Twig / YAML
 - 設定: `$`を単語認識
 - ディレクトリ例: `hazaiya-docker/eccube_web/eccube/`, `ceralabo-docker/eccube_web/eccube/`
 
-### backend：TypeScript
+### HL：backend
 - NestJS(TypeScript)開発用
 - 拡張機能: NestJS / TypeScript / Prisma / GraphQL
 - 設定: `@`を単語認識
 - ディレクトリ例: `regolith-docker/regolith-api-ctr/regolith-api/`, `olta-docker/regolith-api-ctr/regolith-api/`
 
-### frontend：TypeScript
+### HL：frontend
 - Next.js/React.js(TypeScript)開発用
 - 拡張機能: Next.js / React / TypeScript / GraphQL
 - ディレクトリ例: `regolith-docker/regolith-admin-ctr/regolith-admin`, `olta-docker/regolith-front-ctr/regolith-front`
 
-### スクリプト：Bash ShellScript
+### Bash ShellScript
 - bashスクリプト用
 - 拡張機能: bash関連
+
+### Google Apps Script
+- Google Apps Script開発用
+- 拡張機能: Google Apps Script関連
 
 ### playground
 - 設定や拡張機能の試用

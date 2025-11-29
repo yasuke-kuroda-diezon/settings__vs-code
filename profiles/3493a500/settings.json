@@ -1,5 +1,5 @@
 {
-  // 'backend：TypeScript' profile.
+  // 'HL：backend' profile.
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordSeparators": "`~!#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "github.copilot.chat.languageContext.fix.typescript.enabled": true,
