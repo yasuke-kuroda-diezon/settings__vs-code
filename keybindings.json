@@ -1,0 +1,9 @@
+// ---------------------------------
+// apply to all profiles.
+// ---------------------------------
+[
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.duplicateWorkspaceInNewWindow"
+  }
+]

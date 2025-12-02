@@ -1,0 +1,27 @@
+{
+	// apply to all profiles.
+	"💡print to console.log": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "clog",
+		"body": [
+			"console.log($CLIPBOARD)",
+		],
+		"description": "Log output to console"
+	},
+	"💡print to console.dir": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "cdir",
+		"body": [
+			"console.dir($CLIPBOARD, { depth: null })",
+		],
+		"description": "Log output to console"
+	},
+	"💡print to console.table": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "ctable",
+		"body": [
+			"console.table($CLIPBOARD)",
+		],
+		"description": "Log output to console"
+	}
+}
