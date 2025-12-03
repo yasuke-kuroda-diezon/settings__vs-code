@@ -14,6 +14,7 @@
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.implementationsCodeLens.showOnAllClassMethods": true,
   "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.preferences.preferTypeOnlyAutoImports": false,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
