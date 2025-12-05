@@ -40,6 +40,10 @@ code-insiders ~/Library/Application\ Support/Code\ -\ Insiders/User/
 - Google Apps Script開発用
 - 拡張機能: Google Apps Script関連
 
+### HTML+CSS
+- HTML/CSS コーディング練習用
+- 拡張機能: HTML/CSS/(JavaScript)関連
+
 ### playground
 - 設定や拡張機能の試用
 - 気に入れば他プロファイルへ反映
