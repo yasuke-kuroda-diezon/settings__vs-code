@@ -1,0 +1,28 @@
+{
+  // 'HL：backend' profile.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordSeparators": "`~!#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "prettier.prettierPath": "./node_modules/prettier",
+  "turboConsoleLog.addSemicolonInTheEnd": false,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.logFunction": "console.log",
+  "turboConsoleLog.quote": "'",
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.showOnAllClassMethods": true,
+  "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.preferences.preferTypeOnlyAutoImports": false,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.customLabels.patterns": {
+    "**/.dist/**/*": "🎁${filename}.${extname}",
+    "**/node_modules/**/*": "📚${filename}.${extname}"
+  }
+}
