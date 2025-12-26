@@ -1,0 +1,55 @@
+{
+	"servers": {
+		// "@notionhq/notion-mcp-server": {
+		// 	"command": "npx",
+		// 	"args": [
+		// 		"-y",
+		// 		"@notionhq/notion-mcp-server"
+		// 	],
+		// 	"envFile": "/Users/yasuke_kuroda/Library/Application Support/Code/User/.env.notion-mcp-server",
+		// 	"type": "stdio"
+		// },
+		"@upstash/context7-mcp": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"@upstash/context7-mcp"
+			],
+			"envFile": "/Users/yasuke_kuroda/Library/Application Support/Code/User/.env.context7",
+			"tools": [
+				"get-library-docs",
+				"resolve-library-id"
+			]
+		},
+		"backlog": {
+			"command": "npx",
+			"args": [
+				"backlog-mcp-server"
+			],
+			"envFile": "/Users/yasuke_kuroda/Library/Application Support/Code/User/.env.backlog",
+			"type": "stdio"
+		},
+		// "chrome-devtools": {
+		// 	"command": "npx",
+		// 	"args": [
+		// 		"-y",
+		// 		"chrome-devtools-mcp@latest",
+		// 		"--headless=true",
+		// 		"--isolated=true"
+		// 	],
+		// 	"type": "stdio"
+		// },
+		"figma-developer-mcp": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"figma-developer-mcp",
+				"--stdio"
+			],
+			"envFile": "/Users/yasuke_kuroda/Library/Application Support/Code/User/.env.figma-developer-mcp",
+			"type": "stdio"
+		}
+	},
+	"inputs": []
+}
