@@ -1,0 +1,7 @@
+{
+  // 'Regolith' profile.
+  "editor.formatOnSave": false, // Twigのインデントが崩れるのでformatOnSaveを無効化している.
+  "editor.wordSeparators": "`~!#%^&*()-=+[{]}\\|;:,.<>/?",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.logFunction": "dump"
+}

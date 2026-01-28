@@ -1,0 +1,4 @@
+{
+  // 'Bash ShellScript' profile.
+  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?"
+}
